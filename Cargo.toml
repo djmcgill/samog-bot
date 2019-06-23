@@ -1,0 +1,13 @@
+[package]
+name = "samog-bot"
+version = "0.1.0"
+authors = ["David McGillicuddy <contact@djmcgill.co.uk>"]
+edition = "2018"
+
+[dependencies]
+env_logger = "~0.6.1"
+config = { version = "~0.9.3", default-features = false }
+serde = { version = "~1.0.92", features = ["derive"] }
+serenity = { version = "~0.6.0", features = ["framework", "standard_framework"] }
+log = "~0.4.6"
+percent-encoding = "~1.0.1"
